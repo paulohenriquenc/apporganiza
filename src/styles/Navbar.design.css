@@ -1,0 +1,46 @@
+
+/* Estilos para a Navbar */
+.navbar {
+    background-color: #1a1a1a; /* Cor de fundo da navbar */
+    padding: 1rem; /* Espaçamento interno */
+    position: fixed; /* Fixa a navbar no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da página */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+    display: flex; /* Exibe os itens em linha */
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; /* Espaça logo e links */
+  }
+  
+  .logo {
+    flex: 1; /* Permite que o logo ocupe o espaço disponível */
+  }
+  
+  .logo img {
+    height: auto; /* Ajusta a altura da imagem conforme necessário */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os itens em linha */
+    gap: 1rem; /* Espaçamento entre os itens */
+  }
+  
+  .navbar li {
+    margin: 0; /* Remove o espaçamento externo */
+  }
+  
+  .navbar a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Define o texto como normal (não negrito) */
+    font-size: 0.8rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  .navbar a:hover {
+    color: #300ff7; /* Muda a cor ao passar o mouse */
+  }
+    
